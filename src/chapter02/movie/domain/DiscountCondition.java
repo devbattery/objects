@@ -1,4 +1,5 @@
 package chapter02.movie.domain;
 
-public class DiscountCondition {
+public interface DiscountCondition {
+    boolean isSatisfiedBy(Screening screening);
 }
